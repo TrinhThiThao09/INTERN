@@ -1,0 +1,336 @@
+header {
+  -webkit-box-shadow: 0 1px 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.1);
+  position: relative;
+  height: 100px; }
+  header a {
+    display: inline-block;
+    margin-left: 21px;
+    font-size: 15px;
+    float: left; }
+  header .a-title {
+    float: none !important; }
+  header h1 {
+    display: inline-block;
+    text-transform: uppercase;
+    font-family: auto;
+    color: #007f48;
+    bottom: 13px;
+    position: absolute;
+    margin-left: 30px; }
+  header .header-title {
+    float: left;
+    margin-left: 15px; }
+    header .header-title h3 {
+      text-transform: uppercase;
+      padding-top: 15px;
+      font-size: 25px;
+      font-family: auto;
+      color: #007f48;
+      font-weight: bold; }
+    header .header-title h4 {
+      text-transform: uppercase;
+      font-family: auto;
+      color: #007f48;
+      font-size: 21px; }
+  header .welcome {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    color: green;
+    font-size: 14px; }
+  header .bannerMenu {
+    clear: both;
+    position: absolute;
+    right: 10px;
+    bottom: 0px; }
+    header .bannerMenu ul {
+      list-style-type: none;
+      padding: 0;
+      margin: 0px; }
+      header .bannerMenu ul li {
+        display: inline-block;
+        margin-left: 10px;
+        line-height: 1; }
+        header .bannerMenu ul li select {
+          background: #099d5e94; }
+      header .bannerMenu ul .see-the-notice {
+        background: url("../images/tb.gif") no-repeat;
+        background-size: 16px; }
+        header .bannerMenu ul .see-the-notice a {
+          color: #528000;
+          text-decoration: none; }
+        header .bannerMenu ul .see-the-notice a:hover {
+          color: #104810;
+          font-weight: bold; }
+      header .bannerMenu ul .change-pass {
+        background: url("../images/oclock.gif") no-repeat;
+        background-size: 16px; }
+        header .bannerMenu ul .change-pass a {
+          color: #528000;
+          text-decoration: none; }
+        header .bannerMenu ul .change-pass a:hover {
+          color: #104810;
+          font-weight: bold; }
+      header .bannerMenu ul .exit {
+        background: url("../images/thoat.gif") no-repeat;
+        background-size: 16px; }
+        header .bannerMenu ul .exit a {
+          color: #528000;
+          text-decoration: none; }
+        header .bannerMenu ul .exit a:hover {
+          color: #104810;
+          font-weight: bold; }
+
+.smooth {
+  -webkit-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out; }
+
+.content {
+  margin-top: 30px;
+  padding: 10px; }
+  .content .status {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    background: #f7d9036e;
+    padding: 9px; }
+    .content .status h3 {
+      text-transform: uppercase;
+      font-family: auto;
+      font-weight: bold;
+      margin-bottom: 0px;
+      font-size: 20px; }
+  .content h3 {
+    text-transform: uppercase;
+    font-family: auto;
+    font-weight: bold;
+    margin-bottom: 0px;
+    font-size: 20px; }
+  .content ul li a, .content ul li strong {
+    color: #007f48;
+    text-decoration: none; }
+  .content ul li a:hover {
+    color: #9cd685; }
+  .content form {
+    border: 1px solid #00000063; }
+    .content form .box-header {
+      background: #49bf67;
+      padding: 15px;
+      color: #fff;
+      text-align: center; }
+    .content form .box-content {
+      padding: 10px; }
+      .content form .box-content .ct {
+        margin-top: 15px;
+        margin-bottom: 20px; }
+        .content form .box-content .ct h5 {
+          color: #0000009e;
+          font-size: 17px; }
+        .content form .box-content .ct input {
+          width: 100%;
+          outline: none;
+          padding: 3px; }
+        .content form .box-content .ct select {
+          width: 50%;
+          padding: 5px; }
+      .content form .box-content .submit {
+        border-top: 1px solid #00000036;
+        padding: 30px 10px 10px 10px;
+        margin: 40px 0 10px 0px; }
+        .content form .box-content .submit .forget-pass {
+          color: #007f48;
+          text-decoration: none; }
+        .content form .box-content .submit .forget-pass:hover {
+          color: #9cd685; }
+        .content form .box-content .submit .login {
+          padding: 8px;
+          background: #49bf67;
+          text-decoration: none;
+          color: #fff;
+          border-radius: 4px; }
+        .content form .box-content .submit .login:hover {
+          background-color: #008000bf; }
+
+.row {
+  margin-right: 0px; }
+
+footer {
+  margin-top: 10px;
+  padding-top: 15px;
+  border-top: 1px solid #eee;
+  clear: both; }
+  footer a {
+    color: #000;
+    text-decoration: none !important; }
+  footer a:hover {
+    color: green; }
+  footer p {
+    font-size: 12px; }
+  footer .online {
+    text-align: right; }
+    footer .online strong {
+      color: red; }
+  footer .info {
+    text-align: right; }
+    footer .info a {
+      padding: 10px; }
+  footer span {
+    color: #0006;
+    font-size: 13px; }
+
+.main {
+  padding: 5px; }
+  .main .left-list {
+    float: left;
+    /*overflow: auto;
+	    height: 120px;
+	    width: 180px;*/ }
+    .main .left-list td {
+      cursor: pointer;
+      padding: 5px;
+      background: #0000000f;
+      color: #000;
+      border: 1px solid #0000002e;
+      font-size: 15px; }
+      .main .left-list td a {
+        padding-right: 88px;
+        text-decoration: none;
+        color: #000; }
+    .main .left-list td:hover {
+      background: #fff; }
+    .main .left-list .first-news {
+      background: #099d5e;
+      color: #fff; }
+      .main .left-list .first-news a {
+        text-decoration: none;
+        color: #fff; }
+    .main .left-list .first-news:hover {
+      background: #099d5e; }
+  .main .right-content {
+    float: left;
+    width: 1152px; }
+    .main .right-content .guide {
+      text-align: center;
+      color: #007f48;
+      text-transform: uppercase;
+      padding: 9px 0 4px 0;
+      border-bottom: 1px solid #00000021; }
+      .main .right-content .guide h5 {
+        font-size: 18px; }
+    .main .right-content .notification {
+      padding: 10px; }
+      .main .right-content .notification h3 {
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 20px;
+        margin-bottom: 20px; }
+      .main .right-content .notification a {
+        color: #0056b3; }
+      .main .right-content .notification h4 {
+        font-size: 20px;
+        color: #007f48; }
+      .main .right-content .notification .sum-exam {
+        color: red;
+        font-weight: bold; }
+        .main .right-content .notification .sum-exam a {
+          padding: 10px;
+          background: #099d5e;
+          text-decoration: none;
+          color: #fff;
+          border-radius: 4px; }
+        .main .right-content .notification .sum-exam a:hover {
+          background-color: #008000bf; }
+      .main .right-content .notification p {
+        margin-top: 10px;
+        font-weight: bold; }
+      .main .right-content .notification .center {
+        text-align: center;
+        font-weight: bold;
+        color: #007f48; }
+      .main .right-content .notification select {
+        outline: none;
+        width: 210px; }
+      .main .right-content .notification .list-exam {
+        margin-bottom: 30px; }
+        .main .right-content .notification .list-exam .button {
+          padding: 5px 20px; }
+        .main .right-content .notification .list-exam .print {
+          padding: 10px;
+          background: #099d5e;
+          border-radius: 5px;
+          color: #fff;
+          text-transform: uppercase;
+          text-decoration: none;
+          font-weight: bold;
+          font-size: 15px; }
+        .main .right-content .notification .list-exam .print:hover {
+          background: #046f41; }
+
+.head p {
+  text-align: center;
+  margin-bottom: 0; }
+
+.head .line-2 {
+  font-weight: bold; }
+
+.main-title {
+  text-align: center;
+  text-transform: uppercase; }
+  .main-title h1 {
+    margin-top: 30px;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 30px; }
+
+.downl {
+  padding: 10px;
+  background: #00000029;
+  border-radius: 5px;
+  text-transform: uppercase;
+  color: #000;
+  font-weight: bold;
+  margin: 22px 0 15px 25px; }
+
+.downl:hover {
+  text-decoration: none;
+  color: #000;
+  background: #00000052; }
+
+.option {
+  margin-top: 30px; }
+  .option a {
+    background: #007f48;
+    padding: 10px 20px 10px;
+    border-radius: 7px;
+    color: #fff; }
+  .option a:hover {
+    background: #3a8a53;
+    text-decoration: none; }
+
+form .text-header {
+  text-transform: uppercase;
+  margin-top: 30px;
+  color: #007f48;
+  text-align: center; }
+  form .text-header h3 {
+    font-weight: bold; }
+
+form .info .ct {
+  margin: 20px 0 0px 0px;
+  display: inline-block; }
+
+form .submit {
+  text-align: center;
+  margin-top: 30px; }
+  form .submit input {
+    background: #007f48;
+    color: #fff;
+    border: none; }
+  form .submit input:hover {
+    background: #639a63; }
+  form .submit .save {
+    margin-right: 10px;
+    padding: 7px 22px; }
+  form .submit .cancel {
+    padding: 7px 10px; }
